@@ -1,0 +1,35 @@
+body {
+    background-color: #0f172a;
+    color: #e2e8f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(to bottom, #020617, #0f172a);
+}
+h1 { color: #2dd4bf; font-size: 3rem; margin: 10px 0; letter-spacing: 2px; }
+.badge { background-color: rgba(45, 212, 191, 0.1); color: #2dd4bf; display: inline-block; padding: 5px 15px; rounded-radius: 20px; font-size: 12px; font-weight: bold; border: 1px solid rgba(45, 212, 191, 0.3); border-radius: 20px;}
+.form-container { max-w: 500px; margin: 40px auto; background-color: #1e293b; padding: 30px; border-radius: 16px; border: 1px solid #334155; box-shadow: 0 10px 25px -5px rgba(0,0,0,0.3); }
+.form-group { margin-bottom: 15px; }
+.form-group label { display: block; font-size: 12px; font-weight: bold; color: #94a3b8; margin-bottom: 5px; }
+.form-group input { width: 93%; padding: 10px; background-color: #0f172a; border: 1px solid #334155; border-radius: 8px; color: #fff; }
+.checkbox-group { margin: 15px 0; font-size: 13px; color: #cbd5e1; }
+.btn-primary, .btn-submit, .btn-accent { background: linear-gradient(to right, #14b8a6, #10b981); color: #0f172a; border: none; padding: 12px 24px; font-weight: bold; border-radius: 8px; cursor: pointer; width: 100%; transition: opacity 0.2s; }
+.btn-primary { width: auto; border-radius: 20px; }
+.btn-sec { background-color: #334155; color: #fff; border: none; padding: 10px 15px; border-radius: 8px; cursor: pointer; }
+.legal-layer { margin-top: 20px; background-color: #0f172a; padding: 12px; border-radius: 8px; font-size: 10px; color: #94a3b8; line-height: 1.4; }
+.cookie-banner { position: fixed; bottom: 0; left: 0; right: 0; background-color: rgba(2, 6, 23, 0.95); border-top: 1px solid #14b8a6; padding: 20px; z-index: 100; box-shadow: 0 -10px 25px rgba(0,0,0,0.5); }
+.cookie-content { max-w: 1000px; margin: 0 auto; display: flex; flex-direction: column; gap: 15px; }
+.cookie-buttons { display: flex; gap: 10px; justify-content: flex-end; }
+.hidden { display: none !important; }
+.modal { position: fixed; inset: 0; background-color: rgba(0,0,0,0.8); z-index: 200; display: flex; align-items: center; justify-content: center; }
+.modal-content { background-color: #1e293b; padding: 25px; border-radius: 16px; max-w: 400px; width: 100%; border: 1px solid #334155; }
+.cookie-option { display: flex; justify-content: space-between; margin: 15px 0; font-size: 13px; }
+footer { text-align: center; padding: 40px 20px; color: #64748b; font-size: 12px; border-top: 1px solid #1e293b; margin-top: 40px; }
+footer a { color: #2dd4bf; text-decoration: none; }
+.feedback { margin-top: 10px; font-size: 12px; font-weight: bold; text-align: center; }
+.success { color: #34d399; }
+.error { color: #f87171; }
