@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniiiimmg Music - Portal Oficial</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="hero">
+        <div class="badge">🎸 GIRA MUNDIAL 2026 / 2027</div>
+        <h1>DANIIIIMMG</h1>
+        <p>"La música que conecta el alma, el cosmos y las buenas vibraciones."</p>
+        <div class="actions">
+            <button class="btn-primary">Escuchar Último Single 🎧</button>
+        </div>
+    </header>
+
+    <section class="form-container">
+        <h2>Únete a la Comunidad Exclusiva</h2>
+        <p class="subtitle">Recibe maquetas y regalos antes que nadie.</p>
+        
+        <form id="lopdForm">
+            <div class="form-group">
+                <label>Nom Complet *</label>
+                <input type="text" id="userName" required placeholder="El tu nom...">
+            </div>
+            <div class="form-group">
+                <label>Correu Electrònic *</label>
+                <input type="email" id="userEmail" required placeholder="nom@correu.com">
+            </div>
+
+            <div class="checkbox-group">
+                <input type="checkbox" id="acceptPrivacy" required>
+                <label for="acceptPrivacy">He llegit i accepto la <a href="politica-privacitat.html" target="_blank">Política de Privacitat</a>. *</label>
+            </div>
+            <div class="checkbox-group">
+                <input type="checkbox" id="acceptMarketing">
+                <label for="acceptMarketing">Acepto rebre comunicacions comercials i novetats de concerts. (Opcional)</label>
+            </div>
+
+            <button type="submit" class="btn-submit">Enviar Missatge Segur 🔒</button>
+            <div id="formFeedback" class="feedback"></div>
+        </form>
+
+        <div class="legal-layer">
+            <p><strong>ℹ️ INFORMACIÓ BÀSICA DE PROTECCIÓ DE DADES:</strong><br>
+            <strong>Responsable:</strong> Daniiiimmg Music S.L.<br>
+            <strong>Finalitat:</strong> Gestionar el enviament d'informació musical.<br>
+            <strong>Legitimació:</strong> El teu consentiment explícit al marcar les caselles.<br>
+            <strong>Drets:</strong> Pots accedir, rectificar i suprimir les teves dades enviant un correu a lopd@daniiiimmg-music.com.</p>
+        </div>
+    </section>
+
+    <div id="cookieBanner" class="cookie-banner hidden">
+        <div class="cookie-content">
+            <h3>🍪 Valorem la teva privacitat</h3>
+            <p>Aquest lloc web utilitza cookies pròpies i de tercers per analitzar el trànsit de la web de <strong>Daniiiimmg Music</strong> i personalitzar anuncis. Pots acceptar-les totes, rebutjar-les o configurar-les.</p>
+            <div class="cookie-buttons">
+                <button id="btnConfigCookies" class="btn-sec">Configurar ⚙️</button>
+                <button id="btnRejectCookies" class="btn-sec">Rebutjar Tot</button>
+                <button id="btnAcceptCookies" class="btn-accent">Acceptar Tot ✅</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="cookieModal" class="modal hidden">
+        <div class="modal-content">
+            <h3>Panel de Configuració de Cookies</h3>
+            <div class="cookie-option">
+                <label><strong>Cookies Tècniques Obligatòries</strong> (Sempre actives)</label>
+                <input type="checkbox" checked disabled>
+            </div>
+            <div class="cookie-option">
+                <label><strong>Cookies Analítiques</strong> (Mesura de trànsit web)</label>
+                <input type="checkbox" id="cookieAnalitica">
+            </div>
+            <div class="cookie-option">
+                <label><strong>Cookies de Publicitat</strong> (Perfilat i concerts)</label>
+                <input type="checkbox" id="cookieMarketing">
+            </div>
+            <div class="modal-actions">
+                <button id="btnSaveCookies" class="btn-accent">Desar Preferències 💾</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026 Daniiiimmg S.L. Tots els drets reservats.</p>
+        <div class="footer-links">
+            <a href="avis-legal.html">Avís Legal</a> | 
+            <a href="politica-privacitat.html">Política de Privacitat</a> | 
+            <a href="politica-cookies.html">Política de Cookies</a>
+        </div>
+    </footer>
+
+    <script src="js/compliance.js"></script>
+</body>
+</html>
